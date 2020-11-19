@@ -1,0 +1,131 @@
+{
+  "type": "PROJECT",
+  "version": "v0",
+  "data": {
+    "background": "#ffffff",
+    "foreground": "#000000"
+  },
+  "children": [
+    {
+      "type": "HEADER",
+      "movable": false,
+      "removable": false,
+      "data": {
+        "source": "//logo.png"
+      }
+    },
+    {
+      "type": "IMAGE",
+      "movable": true,
+      "removable": true,
+      "data": {
+        "anchor": null,
+        "source": "//image.jpeg"
+      }
+    },
+    {
+      "type": "TEXT",
+      "movable": true,
+      "removable": true,
+      "data": {
+        "anchor": null,
+        "content": "Reopening <strong>discount</strong>",
+        "format": "LARGE_HEADING"
+      }
+    },
+    {
+      "type": "TEXT",
+      "movable": true,
+      "removable": true,
+      "data": {
+        "anchor": null,
+        "content": "Here's a discount we'd like to share, just for you!",
+        "format": "PARAGRAPH"
+      }
+    },
+    {
+      "type": "COLUMNS",
+      "movable": true,
+      "removable": true,
+      "data": {
+        "layout": [
+          [ 0, 1 ],
+          [ 3, 2 ]
+        ]
+      },
+      "children": [
+        {
+          "type": "IMAGE",
+          "movable": true,
+          "removable": true,
+          "data": {
+            "anchor": null,
+            "source": null
+          }
+        },
+        {
+          "type": "TEXT",
+          "movable": true,
+          "removable": true,
+          "data": {
+            "anchor": null,
+            "content": "Welcome to <strong>Papa John</strong>!",
+            "format": "LARGE_HEADING"
+          }
+        },
+        {
+          "type": "IMAGE",
+          "movable": true,
+          "removable": true,
+          "data": {
+            "anchor": null,
+            "source": null
+          }
+        },
+        {
+          "type": "TEXT",
+          "movable": true,
+          "removable": true,
+          "data": {
+            "anchor": null,
+            "content": "Welcome to <strong>Papa John</strong>!",
+            "format": "LARGE_HEADING"
+          }
+        }
+      ]
+    },
+    {
+      "type": "DIVIDER",
+      "movable": true,
+      "removable": true,
+      "data": {
+        "style": "HEARTS"
+      }
+    },
+    {
+      "type": "BUTTON",
+      "movable": true,
+      "removable": true,
+      "data": {
+        "anchor": null,
+        "content": "Welcome to <strong>Papa John</strong>!",
+        "textColor": "#ffffff",
+        "buttonColor": "#000000"
+      }
+    },
+    {
+      "type": "DISCOUNT",
+      "movable": true,
+      "removable": false,
+      "data": {
+        "amount": 20,
+        "currency": "%",
+        "uses": "5",
+        "validity": "30",
+        "services": [
+          "BARBER"
+        ]
+      }
+    }
+  ]
+}
